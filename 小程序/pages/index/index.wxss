@@ -1,0 +1,50 @@
+/**index.wxss**/
+.search{
+  position: relative;
+}
+.search-box{
+  margin: 60rpx auto 0;
+  width: 90%;
+  height: 80rpx;
+  border-radius:35rpx; 
+  background: #eee;
+  padding-left: 30rpx;
+}
+.icon-search{
+  position:absolute;
+  top: 50%;
+  right:8%;
+  z-index: 1;
+  margin-top: -12px;
+}
+.main-title{
+  display: block;
+  text-align: center;
+  margin: 60rpx 0;
+}
+.main-list{
+  height: 32px;
+  margin-bottom:40rpx;
+}
+.main-list text{
+  width: 18%;
+  float: left;
+  display: block;
+  line-height: 32px;
+  text-align: center;
+}
+.main-list progress{
+  width:80%;
+  float: left;
+}
+.logo text{
+  text-align: center;
+  display: block;
+  color: red;
+}
+.logo image{
+  margin-left: 20%;
+  width: 60%;
+  height: 180rpx;
+}
+

@@ -1,0 +1,22 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="search">
+    <input class="search-box" placeholder="请输入省市县或者景点名称" />
+  <icon type="search" class="icon-search" bindtap="iconSearch"></icon>
+  </view>
+  <view class="main">
+    <text class="main-title">全国各省美誉度Top5排行榜</text>
+    <view class="main-list" wx:for="{{top5}}">
+      <text>{{item.top5Name}}</text>
+      <progress percent="{{item.top5Num}}" show-info stroke-width="36" active="true" color="#46c2cc"/>
+    </view>
+  </view>
+  <view class="logo">
+    <text>本数据由酷旅数据提供</text>
+    <image src="../img/logo.png"></image>
+  </view>
+</view>
+
+
+
+
