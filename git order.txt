@@ -32,14 +32,18 @@
 13、回退版本，也可以把暂存区的修改回退到工作区。当我们用HEAD时，表示最新的版本。
 	$ git reset HEAD 文件名称
 
-14删除文件
+14、删除文件
 	$ rm 文件名
 	删错了把误删的文件恢复到最新版本$ git checkout -- 文件名
 	确实要从版本库中删除该文件，那就用命令$ git rm 文件名，并且git commit：
-
-
-
-
+15、本地仓库与github上仓库进行关联
+	$ git remote add origin git@github.com:（github账户名）/（github要远程的仓库名）.git
+16、把本地库的所有内容推送到远程库上
+	$ git push -u origin master（第一次推送加上-u）
+	$ git push origin master（以后推送写这个就行了）
+17、从远程库克隆
+	$ git clone git@github.com:（github账户名）/（github要远程的仓库名）.git
+	Git支持多种协议，包括https，但通过ssh支持的原生git协议速度最快。
 
 
 
