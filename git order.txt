@@ -1,0 +1,48 @@
+1、创建版本库（windows系统不要起中文名）
+	$ mkdir 文件名
+	$ cd 文件夹
+	$ pwd
+	pwd命令用于显示当前目录。
+2、把目录变成Git可以管理的仓库：
+	$ git init
+	Initialized empty Git repository in /Users/michael/learngit/.git/
+3、把文件添加到仓库（可以同时添加多个）
+	$ git add readme.txt
+4、把文件提交到仓库
+	$ git commit -m "xxx"
+	-m后面输入的是本次提交的说明cd
+5、修改之后查看结果，掌握仓库当前的状态告诉你有文件被修改过
+	$ git status
+6、查看具体修改了什么内容
+	$ git diff 文件名称
+7、历史记录看我们修改了几个版本
+	$ git log
+	$ git log --pretty=oneline（简化显示）
+8、退回到上一个或多个版本（退回版本之前那些版本git log都看不到了）
+	$ git reset --hard HEAD^（HEAD^一个、HEAD^^两个、HEAD~100、100个）
+9、退回到指定版本(命令行窗口没有关闭情况向上找commit id)
+	$ git reset --hard (commit id)
+10、记录你的每一次命令找到commit id，回到哪个版本
+	$ git reflog
+11、查看文件内容
+	$ cat 文件名称
+12、让这个文件回到最近一次git commit或git add时的状态。
+	$ git checkout -- 文件名称
+
+13、回退版本，也可以把暂存区的修改回退到工作区。当我们用HEAD时，表示最新的版本。
+	$ git reset HEAD 文件名称
+
+14删除文件
+	$ rm 文件名
+	删错了把误删的文件恢复到最新版本$ git checkout -- 文件名
+	确实要从版本库中删除该文件，那就用命令$ git rm 文件名，并且git commit：
+
+
+
+
+
+
+
+
+
+
