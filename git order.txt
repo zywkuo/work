@@ -68,3 +68,27 @@
 	c,如果合并有冲突，则解决冲突，并在本地提交；
 	d,没有冲突或者解决掉冲突后，再用git push origin branch-name推送就能成功！
 	如果git pull提示“no tracking information”，则说明本地分支和远程分支的链接关系没有创建，用命令git branch --set-upstream branch-name origin/branch-name。
+28、打一个新标签
+	$ git tag v1.0（v1.0是标签版本）
+29、查看所有标签
+	$ git tag
+30、给指定的版本进行打标签
+	$ git tag v0.9 6224937（v0.9是标签版本.6224937是commit id）
+31、查看标签信息
+	$ git show v0.9
+32、还可以创建带有说明的标签，用-a指定标签名，-m指定说明文字
+	$ git tag -a v0.1 -m "version 0.1 released" 3628164
+33、推送某个标签到远程
+	$ git push origin v1.0
+34、一次性推送全部尚未推送到远程的本地标签
+	$ git push origin --tags
+35、删除本地标签
+	$ git tag -d v0.1
+36、删除远程标签（需要先删除本地标签）
+	$ git push origin :refs/tags/v0.9
+
+
+
+
+
+
