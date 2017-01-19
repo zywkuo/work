@@ -1,0 +1,24 @@
+/**index.wxss**/
+.logo image{
+  margin-top:80rpx;
+  margin-left: 20%;
+  width: 60%;
+  height: 180rpx;
+}
+.picker-title{
+  font-size: 38rpx;
+  color: #666;
+  margin-top: 80rpx;
+  display: block;
+  text-align: center;
+}
+.picker-name{
+  margin-top:180rpx;
+  font-size: 80rpx;
+  color: red;
+}
+.main-button{
+  width: 100%;
+  position:absolute;
+  bottom: 80rpx;
+}

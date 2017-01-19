@@ -1,0 +1,22 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="logo">
+    <image src="../img/logo.png"></image>
+  </view>
+  <view class="main">
+    <picker bindchange="change" value="{{index}}" range="{{array}}">
+      <text class="picker-title">请选择您要查询的省或直辖市的名称</text>
+      <view class="picker-title">
+        当前选择省或直辖市是
+      </view>
+      <view class="picker-title picker-name">
+        {{array[index]}}
+      </view>
+    </picker>
+    <button class="main-button" type="primary" bindtap="click" data-btnid="{{array[index]}}">确认</button>
+  </view>
+</view>
+
+
+
+

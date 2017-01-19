@@ -1,0 +1,17 @@
+.detail-title{
+    text-align: center;
+    margin: 30rpx ;
+}
+.detail-list{
+    padding:30rpx 5%;
+    box-shadow: 10px 6px 8px #ccc;
+}
+.detail-list text:first-child{
+    display: block;
+    font-size: 42rpx;
+    margin: 0 0 8px 10px;
+}
+.detail-list text:last-child{
+    margin-left: 40rpx;
+}
+

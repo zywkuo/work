@@ -1,0 +1,7 @@
+<view class="detail">
+    <view class="detail-title">{{btnid}}景区的评价</view>
+    <view class="detail-list" wx:for="{{detail}}">
+        <text>{{item.name}}</text>
+        <text>{{item.value}}</text>
+    </view>
+</view>
