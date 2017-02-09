@@ -1,0 +1,10 @@
+1、迁出配置库内容（SVN Checkout）
+2、更新文件（SVN Update）
+3、提交更新(SVN Commit)
+4、增加文件(Add)
+5、检查更新（Check for modifications）
+6、删除文件（Delete）
+7、撤销更改（Revert）
+8、锁定和解锁（Get lock and Release lock）
+9、重命名文件（Rename）
+10、获取历史文件（Show log）
