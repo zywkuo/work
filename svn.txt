@@ -8,3 +8,7 @@
 8、锁定和解锁（Get lock and Release lock）
 9、重命名文件（Rename）
 10、获取历史文件（Show log）
+11、清空权限（clear all）
+12、恢复到上一版本（Revert）
+13、恢复到选中版本（Revert changes from this revision）
+14、对比工具（diff）
